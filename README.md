@@ -1,4 +1,5 @@
-PiTFT-PlayerUI is a fork of PMB-PiTFT (Pi MusicBox PiTFT), a small Python script that uses mopidy's mpd-api to show controlling ui on Raspberry Pi's screen.
+PiTFT-UI is a fork of PMB-PiTFT (Pi MusicBox PiTFT), a small Python script that uses mopidy's mpd-api to show controlling ui on Raspberry Pi's screen.
+Forked from https://github.com/Arzk/pitft-playerui
 
 ![Screenshot](https://dl.dropboxusercontent.com/s/c2x5mcrbz4xqm0j/pitft-playerui.gif)
 
