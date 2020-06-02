@@ -108,8 +108,8 @@ This should set MPD and Spotify to use the same softvol volume slider. To set th
 
 Install dependencies:
 <pre>apt-get update
-apt-get install python-pygame python-lirc python-cddb
-pip install python-mpd2
+apt-get install python3-pygame python-lirc python-cddb
+pip3 install python3-mpd2
 apt-get install evtest tslib libts-bin
 </pre>
 
