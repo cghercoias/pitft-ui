@@ -1,0 +1,13 @@
+[Unit]
+Description=pitft-playerui
+Requires=mpd.service
+After=mpd.service
+
+[Service]
+User=pi
+Type=forking
+ExecStart=/usr/bin/sudo /usr/bin/python /home/pi/pitft-playerui/ui.py start
+ExecStop=/usr/bin/sudo /usr/bin/python /home/pi/pitft-playerui/ui.py stop
+
+[Install]
+WantedBy=multi-user.target

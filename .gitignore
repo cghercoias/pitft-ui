@@ -1,0 +1,9 @@
+*.pyc
+*.ttf
+*_old
+*_my
+*_template
+*.xcf
+config.py
+pitft-playerui.lircrc
+test/*
